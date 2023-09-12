@@ -1,0 +1,15 @@
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\bin\Debug\net7.0\FileUploader.Infrastructure.deps.json
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\bin\Debug\net7.0\FileUploader.Infrastructure.dll
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\bin\Debug\net7.0\FileUploader.Infrastructure.pdb
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\bin\Debug\net7.0\FileUploader.Core.dll
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\bin\Debug\net7.0\FileUploader.Core.pdb
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.csproj.AssemblyReference.cache
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.AssemblyInfo.cs
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.csproj.CopyComplete
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.dll
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\refint\FileUploader.Infrastructure.dll
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\FileUploader.Infrastructure.pdb
+E:\Projects\FileUploaderSolution\FileUploader.Infrastructure\obj\Debug\net7.0\ref\FileUploader.Infrastructure.dll

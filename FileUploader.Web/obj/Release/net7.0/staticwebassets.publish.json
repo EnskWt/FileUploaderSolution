@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8IemJQMp6J7W6JSt56FwUkVkwm+PHWQj3gEZMmC3b40=",
+  "Source": "FileUploader.Web",
+  "BasePath": "_content/FileUploader.Web",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

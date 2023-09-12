@@ -1,0 +1,63 @@
+<div class="form-container">
+  <h3>Upload your file</h3>
+
+  <form [formGroup]="postUploadForm" (ngSubmit)="postUploadSubmitted()">
+
+    <!-- Email -->
+    <div class="form-field flex">
+
+      <div class="w-25">
+        <label for="Email" class="form-label pt">Email</label>
+      </div>
+
+      <div class="flex-1">
+        <input type="email" class="form-input" formControlName="email" />
+        <span class="text-red" *ngIf="(postUploadForm_EmailControl.touched || isPostUploadFormSubmitted) && (postUploadForm_EmailControl.errors?.['required'])">
+          Email can't be blank
+        </span>
+        <span class="text-red" *ngIf="(postUploadForm_EmailControl.touched || isPostUploadFormSubmitted) && (postUploadForm_EmailControl.errors?.['email'])">
+          You should type an existing email
+        </span>
+      </div>
+
+    </div>
+
+    <!-- File -->
+    <div class="form-field flex">
+
+      <div class="w-25">
+        <label for="File" class="form-label pt">File</label>
+      </div>
+
+      <div class="flex-1">
+        <input type="file" (change)="onSelectFile($event)" class="form-input" formControlName="file" />
+        <span class="text-red" *ngIf="(postUploadForm_FileControl.touched || isPostUploadFormSubmitted) && (postUploadForm_FileControl.errors?.['required'])">
+          File should be attached
+        </span>
+        <span *ngIf="fileExtensionErrorMessage" class="text-red">{{ fileExtensionErrorMessage }}</span>
+      </div>
+
+    </div>
+
+    <!-- Upload button -->
+    <div class="form-field flex">
+      <div class="w-25"></div>
+
+      <div class="flex-1">
+        <button class="button button-green-back">
+          Upload
+        </button>
+      </div>
+    </div>
+
+    <!-- Success message -->
+    <div class="form-field flex">
+      <div class="w-25"></div>
+
+      <div class="flex-1">
+        <span *ngIf="successMessage" class="text-green">{{ successMessage }}</span>
+      </div>
+    </div>
+
+  </form>
+</div>

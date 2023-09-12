@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XxJthPFyt8a+RgKpEYMA+YhZ2HKOywT+ePFzZPQgDv0=",
+  "Source": "FileUploader.Web",
+  "BasePath": "_content/FileUploader.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

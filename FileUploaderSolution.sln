@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{D8A03446-C53E-405E-B1DD-647A178406FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{30FA6B87-2C02-4EC1-8297-D19CD03D05A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploader.Core", "FileUploader.Core\FileUploader.Core.csproj", "{B7291182-519C-4A34-BC86-30F317AC6A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploader.Infrastructure", "FileUploader.Infrastructure\FileUploader.Infrastructure.csproj", "{6C43042A-5A71-4C8E-85C3-16388F1B8C12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploader.UnitTests", "FileUploader.UnitTests\FileUploader.UnitTests.csproj", "{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploader.Web", "FileUploader.Web\FileUploader.Web.csproj", "{C4B23DA9-3F15-4FEC-9FA2-6BA849659546}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FileUploader.ClientApp", "FileUploader.ClientApp\FileUploader.ClientApp.esproj", "{7B2F7904-A2F6-42A6-A86B-9B604424A973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7291182-519C-4A34-BC86-30F317AC6A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7291182-519C-4A34-BC86-30F317AC6A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7291182-519C-4A34-BC86-30F317AC6A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7291182-519C-4A34-BC86-30F317AC6A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C43042A-5A71-4C8E-85C3-16388F1B8C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C43042A-5A71-4C8E-85C3-16388F1B8C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C43042A-5A71-4C8E-85C3-16388F1B8C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C43042A-5A71-4C8E-85C3-16388F1B8C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B23DA9-3F15-4FEC-9FA2-6BA849659546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B23DA9-3F15-4FEC-9FA2-6BA849659546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B23DA9-3F15-4FEC-9FA2-6BA849659546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B23DA9-3F15-4FEC-9FA2-6BA849659546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7291182-519C-4A34-BC86-30F317AC6A75} = {D8A03446-C53E-405E-B1DD-647A178406FE}
+		{6C43042A-5A71-4C8E-85C3-16388F1B8C12} = {D8A03446-C53E-405E-B1DD-647A178406FE}
+		{EE1EE437-B8D1-4B2E-BBE5-6FF3E4B890CB} = {30FA6B87-2C02-4EC1-8297-D19CD03D05A7}
+		{C4B23DA9-3F15-4FEC-9FA2-6BA849659546} = {D8A03446-C53E-405E-B1DD-647A178406FE}
+		{7B2F7904-A2F6-42A6-A86B-9B604424A973} = {D8A03446-C53E-405E-B1DD-647A178406FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51908623-9327-4D5E-9C7E-8CA3C87038A5}
+	EndGlobalSection
+EndGlobal

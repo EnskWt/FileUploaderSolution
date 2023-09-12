@@ -1,0 +1,12 @@
+E:\Projects\FileUploaderSolution\FileUploader.Core\bin\Debug\net7.0\FileUploader.Core.deps.json
+E:\Projects\FileUploaderSolution\FileUploader.Core\bin\Debug\net7.0\FileUploader.Core.dll
+E:\Projects\FileUploaderSolution\FileUploader.Core\bin\Debug\net7.0\FileUploader.Core.pdb
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.csproj.AssemblyReference.cache
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.AssemblyInfoInputs.cache
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.AssemblyInfo.cs
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.csproj.CoreCompileInputs.cache
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.dll
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\refint\FileUploader.Core.dll
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\FileUploader.Core.pdb
+E:\Projects\FileUploaderSolution\FileUploader.Core\obj\Debug\net7.0\ref\FileUploader.Core.dll
