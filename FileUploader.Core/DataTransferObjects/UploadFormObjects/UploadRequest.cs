@@ -12,14 +12,14 @@ namespace FileUploader.Core.DataTransferObjects.UploadFormObjects
 {
     public class UploadRequest
     {
-        //[Required]
-        //[EmailAddress]
-        //[DataType(DataType.EmailAddress)]
-        public string? Email { get; set; }
+        [Required]
+        [EmailAddress]
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; } = null!;
 
-        //[Required]
-        //[FileExtension(".docx")]
-        public IFormFile? File { get; set; }
+        [Required]
+        [FileExtension(".docx")]
+        public IFormFile File { get; set; } = null!;
 
         public UploadForm ToUploadForm()
         {

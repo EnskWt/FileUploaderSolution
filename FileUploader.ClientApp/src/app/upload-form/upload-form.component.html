@@ -41,21 +41,16 @@
 
     <!-- Upload button -->
     <div class="form-field flex">
-      <div class="w-25"></div>
+      <div class="w-25">
+        <div *ngIf="successMessage" class="flex-1 text-green">
+          {{ successMessage }}
+        </div>
+      </div>
 
       <div class="flex-1">
         <button class="button button-green-back">
           Upload
         </button>
-      </div>
-    </div>
-
-    <!-- Success message -->
-    <div class="form-field flex">
-      <div class="w-25"></div>
-
-      <div class="flex-1">
-        <span *ngIf="successMessage" class="text-green">{{ successMessage }}</span>
       </div>
     </div>
 
